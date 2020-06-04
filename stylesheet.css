@@ -1,0 +1,69 @@
+body {
+        margin: 0;
+        background-color: white
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .topnav a {
+        float: left;
+        color: white;
+        font-size: 17px;
+        text-align:center;
+        text-decoration: red;
+        padding: 14px 16px;
+    }
+
+    .topnav a:hover {
+        background-color: goldenrod;
+        color: black;
+    }
+
+    .topnav a:active {
+        background-color: goldenrod;
+        color: white;
+    }
+
+    h1 {
+        padding: 5px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif
+    }
+
+    p {
+        padding: 5px;
+        color: black;
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        color:black
+    }
+
+    th {
+        background-color: goldenrod;
+        color: white; 
+    }
+    td, th {
+        border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+        
+    }
+
+    tr:nth-child(odd) {
+        background-color: lemonchiffon;
+    }
